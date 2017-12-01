@@ -2,6 +2,8 @@ What is this
 ----
 This is an example application demonstrating wrong behaviour of Apache Cassandra when performing a compare-and-set operation specifying an equality criterion with a non-`null` value that encounters a `null` cell.
 
+The problem was reported as [CASSANDRA-14087](https://issues.apache.org/jira/browse/CASSANDRA-14087).
+
 
 How to use this
 ----
